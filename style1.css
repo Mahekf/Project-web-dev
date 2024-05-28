@@ -1,0 +1,157 @@
+/*Zahra Ghanem*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #d5a5db;
+}
+.input_add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.input_add form  {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.4);
+    border-radius: 6px;
+}
+.input_add form input[type = "text"] {
+    border: 1px solid rgba(0,0,0,0.6);
+    border-radius: 6px;
+    outline: 0;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+textarea {
+    border: 1px solid rgba(0,0,0,0.6);
+    border-radius: 6px;
+    outline: 0;
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+.input_add form input[type = "file"]{
+    margin-bottom: 15px;
+} 
+.btn-liste-prod ,.input_add form input[type = "submit"] {
+    padding: 5px 8px;
+    border: 0;
+    outline: 0;
+    background-color: #353597;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.btn-liste-prod {
+    text-decoration: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+/*Page resultats.html*/
+
+.result {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result-content {
+    background-color: #fff;
+    width: 40%;
+    border: 6px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.4);
+}
+.result-content a {
+    color: #b9a2e4;
+    text-decoration: 0;
+}
+.result-content a:hover {
+    text-decoration: underline;
+}
+/**Scroll bar css*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+}
+.result-content h3 {
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+}
+.liste-produits {
+    max-height: 400px;
+    overflow: auto;
+}
+.produit {
+    margin: 20px 0;
+    height: 100px;
+    display: flex;
+}
+.produit .image-prod {
+    height: 100%;
+    width: 100px;
+}
+.produit .image-prod img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.produit .text {
+    margin-left: 15px;
+    overflow: hidden;
+    width: 80%;
+}
+.produit .text .titre {
+    text-transform: uppercase;
+}
+.produit .text .description {
+    color: rgba(0,0,0,0.6);
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive*/
+@media (max-width:745px) {
+    .result-content{
+        width: 80%;
+    }
+    
+}

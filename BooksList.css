@@ -1,0 +1,79 @@
+/*Mahek Fatma*/
+
+.thrillers{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+}
+
+.thrillers h1 { /*Le titre*/
+font-size: 50px;
+text-align: center;
+margin-bottom: 35px;
+}
+
+
+.thrillers .thrillers_box { /*Mettre en colonne au lieu de ligne*/
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 0; 
+}
+
+.thrillers .thrillers_box .thrillers_card { /*Les carrés autour des livres*/
+width: 250px;
+height: 340px;
+text-align: center;
+padding: 5px;
+border: 1px solid #919191;
+margin: auto 20px;
+}
+
+
+.thrillers .thrillers_box .thrillers_card:hover {
+    box-shadow: 0 0 5px #089da1; 
+
+}
+
+.thrillers .thrillers_box .thrillers_card .thrillers_images {
+    width: 150px; /*Agrandir les images verticalement*/
+    height: 220px;
+    margin: 0 auto; 
+    cursor: pointer;
+    box-shadow: 0 0 8px rgb(0, 0, 0, 0, 5); 
+    overflow: hidden;
+}
+
+
+
+.thrillers .thrillers_box .thrillers_card .thrillers_images img{
+    width: 150px; /* M inimser la taille des livres poiur qu'il rentre dans l'encadrement */
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+/*.thrillers .thrillers_box .thrillers_card .thrillers_images img{
+    transform: scale(1.1); /*--> Agrandi la taille des livres
+}*/
+
+.thrillers .thrillers_box .thrillers_card .thrillers_tag p{
+    font-family: queen of camelot; /*En bonne position */
+    font-size: 20px; 
+    margin: 8px 0; 
+}
+
+.thrillers .thrillers_box .thrillers_card .thrillers_tag .thrillers_icon{
+    color: #089da1; /*Couleur d'icon*/
+    margin-bottom: 18px;   
+}
+
+.thrillers .thrillers_box .thrillers_card .thrillers_tag .thrillers_btn{ 
+padding: 8px 20px; /*Auteur's Name*/
+border: 2px solid #089da1; 
+text-decoration: none;
+color: #000;
+}
+

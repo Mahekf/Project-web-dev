@@ -1,0 +1,183 @@
+/*Mahek Fatma*/
+
+* {
+    margin: 0; 
+    font-family: Arial; 
+    border: border-box; 
+}
+
+.navbar { /* La 1ère bar */
+    height: 60px; 
+    background-color: rgb(34, 27, 10); 
+    color: white;
+    display: flex; /* Pour mettre tous les div en ligne */
+    align-items: center; /* Pour mettre tous les div au centre */
+    justify-content: space-evenly;
+}
+
+.nav-logo { /* 1ère boite logo */
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo {
+    background-image: url("images/logo.jpeg"); 
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    
+}
+
+.border {
+    border: 1px solid transparent; /* Si on click les logos, on aura des border transparent*/
+}
+
+.border:hover {
+    border: 1px solid white  /* Pour entourer le border du logo en blanc */
+
+}
+
+/* 2eme boite location */
+.add-first { 
+ color: #cccccc; 
+ font-size: 0.88rem;
+ margin-left: 5px; 
+}
+
+.add-second { 
+    font-size: 1rem;
+    margin-left: 3px; 
+}
+
+.add-icon {
+    display: flex;
+    align-items: center; 
+}
+
+ 
+/* 3eme boite barre de recherche */
+ .nav-search {
+    display: flex; 
+    background-color: rgb(185, 185, 103);
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 3px;
+    border: none; 
+}
+
+ /* La longeur de la barre à recherche */
+.search-input {
+width: 100%;
+font-size: 1rem;
+border: none; 
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    font-size: 1.2rem; 
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #0f1111; 
+}
+
+
+/* 4eme boite sign in */
+span {
+        font-size: 0.85rem;
+        font-weight: 700; 
+}
+
+/* 5eme boite sign in */
+.nav-cart i {
+    font-size: 30px; 
+}
+
+/** Hero-section for the book's image .jpeg **/
+.hero-section {
+    background-image: url("images/Book3.jpeg"); /** About the image **/
+    height: 400px;
+}
+
+.hero-msg {
+    /** background-color: rgb(210, 193, 145); About the text **/
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(207, 226, 207) ;
+}
+
+.box {
+    height : 100px; 
+    width: 20%;
+    background-color: rgb(247, 246, 246);
+    padding : 20px 0px 15px; 
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem; 
+    margin-top: 1rem;
+    margin-bottom : 1rem; 
+}
+
+.box content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/** footer **/
+footer {
+    margin-top: 15px; 
+}
+.foot-panel1 {
+    background-color: rgb(126, 94, 49) ;
+    color : white; 
+    height: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem
+}
+
+.foot-panel2 {
+    background-color: rgb(40, 90, 64) ;
+    color: white;
+    height: 300px;  
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+ul {
+margin-top: 20px; 
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem; 
+    margin-top: 10px;  
+    color: grey; 
+}
